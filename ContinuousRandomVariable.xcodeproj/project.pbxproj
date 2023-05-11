@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B0FD31CE2A0D4DAE007C2D19 /* ContinuousRandomVariableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD31CD2A0D4DAE007C2D19 /* ContinuousRandomVariableApp.swift */; };
-		B0FD31D02A0D4DAE007C2D19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD31CF2A0D4DAE007C2D19 /* ContentView.swift */; };
+		B0FD31D02A0D4DAE007C2D19 /* CRVMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD31CF2A0D4DAE007C2D19 /* CRVMainView.swift */; };
 		B0FD31D22A0D4DAF007C2D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FD31D12A0D4DAF007C2D19 /* Assets.xcassets */; };
 		B0FD31D52A0D4DAF007C2D19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FD31D42A0D4DAF007C2D19 /* Preview Assets.xcassets */; };
 		B0FD31DD2A0D5482007C2D19 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0FD31DC2A0D5482007C2D19 /* .gitignore */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		B0FD31CA2A0D4DAE007C2D19 /* ContinuousRandomVariable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContinuousRandomVariable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FD31CD2A0D4DAE007C2D19 /* ContinuousRandomVariableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousRandomVariableApp.swift; sourceTree = "<group>"; };
-		B0FD31CF2A0D4DAE007C2D19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0FD31CF2A0D4DAE007C2D19 /* CRVMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRVMainView.swift; sourceTree = "<group>"; };
 		B0FD31D12A0D4DAF007C2D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0FD31D42A0D4DAF007C2D19 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0FD31D62A0D4DAF007C2D19 /* ContinuousRandomVariable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContinuousRandomVariable.entitlements; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B0FD31CD2A0D4DAE007C2D19 /* ContinuousRandomVariableApp.swift */,
-				B0FD31CF2A0D4DAE007C2D19 /* ContentView.swift */,
+				B0FD31CF2A0D4DAE007C2D19 /* CRVMainView.swift */,
 				B0FD31D12A0D4DAF007C2D19 /* Assets.xcassets */,
 				B0FD31D62A0D4DAF007C2D19 /* ContinuousRandomVariable.entitlements */,
 				B0FD31D32A0D4DAF007C2D19 /* Preview Content */,
@@ -147,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FD31D02A0D4DAE007C2D19 /* ContentView.swift in Sources */,
+				B0FD31D02A0D4DAE007C2D19 /* CRVMainView.swift in Sources */,
 				B0FD31CE2A0D4DAE007C2D19 /* ContinuousRandomVariableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
