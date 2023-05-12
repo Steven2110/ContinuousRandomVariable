@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		B0A40DDA2A0EC21E0013B4E1 /* DistributionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A40DD92A0EC21E0013B4E1 /* DistributionViewModel.swift */; };
+		B0A40DDD2A0EC8A50013B4E1 /* N10.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A40DDC2A0EC8A50013B4E1 /* N10.png */; };
+		B0A40DDF2A0EC8B60013B4E1 /* N100.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A40DDE2A0EC8B60013B4E1 /* N100.png */; };
+		B0A40DE12A0EC8C80013B4E1 /* N1000.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A40DE02A0EC8C80013B4E1 /* N1000.png */; };
+		B0A40DE32A0EC8DB0013B4E1 /* N10000.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A40DE22A0EC8DB0013B4E1 /* N10000.png */; };
+		B0A40DE52A0EC8F60013B4E1 /* N100000.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A40DE42A0EC8F60013B4E1 /* N100000.png */; };
 		B0FD31CE2A0D4DAE007C2D19 /* ContinuousRandomVariableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD31CD2A0D4DAE007C2D19 /* ContinuousRandomVariableApp.swift */; };
 		B0FD31D02A0D4DAE007C2D19 /* CRVMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FD31CF2A0D4DAE007C2D19 /* CRVMainView.swift */; };
 		B0FD31D22A0D4DAF007C2D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FD31D12A0D4DAF007C2D19 /* Assets.xcassets */; };
@@ -20,6 +25,11 @@
 
 /* Begin PBXFileReference section */
 		B0A40DD92A0EC21E0013B4E1 /* DistributionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionViewModel.swift; sourceTree = "<group>"; };
+		B0A40DDC2A0EC8A50013B4E1 /* N10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N10.png; sourceTree = "<group>"; };
+		B0A40DDE2A0EC8B60013B4E1 /* N100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N100.png; sourceTree = "<group>"; };
+		B0A40DE02A0EC8C80013B4E1 /* N1000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N1000.png; sourceTree = "<group>"; };
+		B0A40DE22A0EC8DB0013B4E1 /* N10000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N10000.png; sourceTree = "<group>"; };
+		B0A40DE42A0EC8F60013B4E1 /* N100000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N100000.png; sourceTree = "<group>"; };
 		B0FD31CA2A0D4DAE007C2D19 /* ContinuousRandomVariable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContinuousRandomVariable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FD31CD2A0D4DAE007C2D19 /* ContinuousRandomVariableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousRandomVariableApp.swift; sourceTree = "<group>"; };
 		B0FD31CF2A0D4DAE007C2D19 /* CRVMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRVMainView.swift; sourceTree = "<group>"; };
@@ -43,11 +53,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0A40DDB2A0EC8870013B4E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B0A40DDC2A0EC8A50013B4E1 /* N10.png */,
+				B0A40DDE2A0EC8B60013B4E1 /* N100.png */,
+				B0A40DE02A0EC8C80013B4E1 /* N1000.png */,
+				B0A40DE22A0EC8DB0013B4E1 /* N10000.png */,
+				B0A40DE42A0EC8F60013B4E1 /* N100000.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		B0FD31C12A0D4DAE007C2D19 = {
 			isa = PBXGroup;
 			children = (
 				B0FD31DC2A0D5482007C2D19 /* .gitignore */,
 				B0FD31DE2A0D5488007C2D19 /* README.md */,
+				B0A40DDB2A0EC8870013B4E1 /* Images */,
 				B0FD31CC2A0D4DAE007C2D19 /* ContinuousRandomVariable */,
 				B0FD31CB2A0D4DAE007C2D19 /* Products */,
 			);
@@ -143,8 +166,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0FD31D52A0D4DAF007C2D19 /* Preview Assets.xcassets in Resources */,
+				B0A40DE32A0EC8DB0013B4E1 /* N10000.png in Resources */,
+				B0A40DDD2A0EC8A50013B4E1 /* N10.png in Resources */,
 				B0FD31DD2A0D5482007C2D19 /* .gitignore in Resources */,
+				B0A40DE52A0EC8F60013B4E1 /* N100000.png in Resources */,
 				B0FD31DF2A0D5488007C2D19 /* README.md in Resources */,
+				B0A40DE12A0EC8C80013B4E1 /* N1000.png in Resources */,
+				B0A40DDF2A0EC8B60013B4E1 /* N100.png in Resources */,
 				B0FD31D22A0D4DAF007C2D19 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
