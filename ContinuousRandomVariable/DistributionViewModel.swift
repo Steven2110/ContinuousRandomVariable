@@ -81,7 +81,7 @@ final class DistributionViewModel: ObservableObject {
         
         let k: Int = specialMethod()
         
-        let intervalMin: Double = floor(min)
+        let intervalMin: Double = min < 0.0 ? floor(min) : ceil(min) // -5.3 ceil = -5.0 floor = -6.0
         let intervalMax: Double = ceil(max)
         print("Interval Min: \(intervalMin), Max: \(intervalMax)")
         let intervalRange: Double = range / Double(k)
